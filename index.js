@@ -26,6 +26,7 @@ class Route{
     let hzValue = blockDif(shb,ehb)
     let verValue = blockDif(this.beginningLocation.vertical, this.beginningLocation.vertical)
     return hzValue + hzValue
+    debugger
     
   }
   
