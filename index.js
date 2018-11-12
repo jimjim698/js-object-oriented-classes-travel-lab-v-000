@@ -9,6 +9,10 @@ class Driver{
  }
 }
 
+function try(){
+  return "works"
+}
+
 class Route{
   constructor(beginningLocation, endingLocation){
     this.beginningLocation = beginningLocation
