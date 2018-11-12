@@ -17,8 +17,8 @@ class Route{
   
   blocksTravelled(){
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
-    debugger
     let shb= eastWest.indexOf(this.beginningLocation.horizontal)
+    debugger 
     let horzBlocks = "h"
   }
   
