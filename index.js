@@ -30,7 +30,15 @@ class Route{
     
   }
   
-  estimatedTime
+  estimatedTime(value){
+    let blocks = blocksTravelled()
+    if(value === true){
+      return blocks/2
+    }
+    else{
+      return blocks/3
+    }
+  }
   
 }
 
