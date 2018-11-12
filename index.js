@@ -23,7 +23,7 @@ class Route{
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     let shb= eastWest.indexOf(this.beginningLocation.horizontal)
     let ehb = eastWest.indexOf(this.endingLocation.horizontal)
-    let b = d
+    let b = d()
     
     debugger
     let horzBlocks = "h"
