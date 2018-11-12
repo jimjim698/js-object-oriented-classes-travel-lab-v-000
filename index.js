@@ -17,7 +17,28 @@ class Route{
   
   blocksTravelled(){
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
-    let horBlocks = 
+    let shb= this.beginningLocation.horizontal 
+    let horzBlocks = "h"
   }
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
