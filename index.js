@@ -9,8 +9,8 @@ class Driver{
  }
 }
 
-function d(){
-  return "works"
+function blockDif(s,e){
+  return s>e ? s-e : e-s
 }
 
 class Route{
